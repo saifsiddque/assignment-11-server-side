@@ -13,7 +13,7 @@ app.use(cors())
 app.use(express.json())
    
 //user: dbuserassig
-//password: Pcmb5QZVboNCvCAv
+//password: Pcmb5QZVboNCvCAv   
 
 
 const uri = `mongodb+srv://${process.env.BD_USER}:${process.env.DB_PASSWORD}@cluster0.nyumefd.mongodb.net/?retryWrites=true&w=majority`;
