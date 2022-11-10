@@ -42,7 +42,7 @@ async function run() {
         console.log(service)
         const result = await serviceCollection.insertOne(service)
         res.send(result)
-      })
+      })   
       // JWT
       // app.post('/jwt', async(req, res)=>{
       //   const user = req.body
